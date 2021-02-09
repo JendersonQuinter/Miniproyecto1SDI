@@ -1,3 +1,4 @@
+/* Configuración de estilo del main */
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body{
     font-family: sans-serif;
 }
 
+/* Configuración de estilo del NavBar */
 header{
     height: 100px;
     background: rgb(23, 253, 234);
@@ -15,17 +17,17 @@ header{
     padding: 20px;
 }
 
-#menu{
+#NavBar{
   margin-left: 23%;
 }
 
-#menu ul li{
+#NavBar ul li{
     display: inline-block;
     padding: 30px;
     margin-top: -50px;
 }
 
-#menu ul li a{
+#NavBar ul li a{
     display: inline-block;
     position: relative;
     color: rgb(0, 0, 0);
@@ -36,10 +38,39 @@ header{
     transition: .2s;
 }
 
-#menu ul li a:hover{
+#NavBar ul li a:hover{
     background: rgb(16, 201, 201);
 }
 
+
+/* Configuración de estilo del Hero */
+#Hero{
+    position: relative;
+    overflow: hidden;
+}
+
+#carrusel{
+    position: relative;
+    z-index: 998;
+    height: 600px;
+}
+
+img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+#img2{
+    left: 100%;
+}
+
+.active{
+    left: 0 !important;
+}
 
 
 
