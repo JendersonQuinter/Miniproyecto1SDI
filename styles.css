@@ -73,7 +73,26 @@ img{
     transition: all 1s;
 }
 
+/* Configuración de estilo del Experience */
+#Experience{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background: black;
+    display: flex;
+}
 
+.proyecto{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    padding: 50px;
+}
+
+.proyecto h3{
+    color: white;
+    font-size: 17px;
+}
 
 
 
