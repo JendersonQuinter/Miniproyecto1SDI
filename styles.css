@@ -10,7 +10,7 @@ body{
 
 header{
     height: 100px;
-    background: blue;
+    background: rgb(23, 253, 234);
     display: flex;
     padding: 20px;
 }
@@ -22,22 +22,22 @@ header{
 #menu ul li{
     display: inline-block;
     padding: 30px;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 #menu ul li a{
     display: inline-block;
     position: relative;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    line-height: 60px;
-    padding: 0 8px;
+    line-height: 100px;
+    padding: 0 15px;
     text-transform: uppercase;
     transition: .2s;
 }
 
 #menu ul li a:hover{
-    background: brown;
+    background: rgb(16, 201, 201);
 }
 
 
